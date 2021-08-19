@@ -4,7 +4,7 @@ function LandingPage({}) {
   return (
     <div className="landing-page">
       <div className={"page-header"}>
-        So you want to work psychological safety?
+        So you want to work with psychological safety?
       </div>
       <div className={"page-text"}>
         Welcome to your toolbox of tools for working with psychological safety!
@@ -39,7 +39,7 @@ function LandingPage({}) {
         <button>Get Started by Reading the Quickstart Guide!</button>
         <div className={"alternative-cta-text"}>
           ... or download the compendium here, containing both the quickstart
-          guide and the tools themselves.
+          guide and the tools themselves
         </div>
       </div>
     </div>
