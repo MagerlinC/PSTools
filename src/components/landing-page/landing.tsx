@@ -6,13 +6,11 @@ function LandingPage({}) {
       <div className={"page-header"}>
         So you want to work psychological safety?
       </div>
-      <div className={"page-teaser"}>Teaser TODO</div>
-      <div className={"page-header"}>Introduction</div>
       <div className={"page-text"}>
         Welcome to your toolbox of tools for working with psychological safety!
-        This document will contain a small introduction, a guide to using the
-        tools, and finally a list of all the tools available. If you have any
-        questions, please reach out at magc@itu.dk.
+        This site will get your team started on your journey towards working
+        with psychological safety. Read further below to get started, or check
+        out the list of tools directly in the menu on the right.
       </div>
       <div className={"page-header"}>What is Psychological Safety?</div>
       <div className={"page-text"}>
