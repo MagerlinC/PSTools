@@ -1,0 +1,19 @@
+.tool {
+  display: flex;
+  flex-direction: column;
+  margin: 66px;
+  .tool-name {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 66px;
+  }
+  .tool-contents {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    .content-header {
+      font-weight: bold;
+      margin: 8px 0;
+    }
+  }
+}

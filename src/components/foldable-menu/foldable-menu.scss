@@ -1,0 +1,48 @@
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(200px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.menu-container {
+  min-width: 3vw;
+  background-color: #535353;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  &.hide {
+    background-color: unset;
+  }
+  &.right {
+    right: 0;
+  }
+  .foldable-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #535353;
+    padding: 0 18px;
+    height: 100%;
+    transition: all 1s ease-in;
+    animation: slideInFromRight;
+    animation-duration: 1s;
+    .menu-item {
+      position: relative;
+      color: white;
+      text-transform: uppercase;
+      font-size: 1.8em;
+      margin: 16px;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
